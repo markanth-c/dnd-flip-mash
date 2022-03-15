@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/dnd-flip-mash/static/css/main.0a0ecd2e.css",
+    "main.js": "/dnd-flip-mash/static/js/main.e1f768c0.js",
+    "index.html": "/dnd-flip-mash/index.html",
+    "main.0a0ecd2e.css.map": "/dnd-flip-mash/static/css/main.0a0ecd2e.css.map",
+    "main.e1f768c0.js.map": "/dnd-flip-mash/static/js/main.e1f768c0.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0a0ecd2e.css",
+    "static/js/main.e1f768c0.js"
+  ]
+}
