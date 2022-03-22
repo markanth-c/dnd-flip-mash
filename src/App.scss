@@ -1,3 +1,7 @@
+body{
+  background-image: url('./bg-pic/grass.png');
+}
+
 .context-wrapper {
   display: flex;
   justify-content: center;
@@ -13,7 +17,8 @@
 .dropbox {
   padding: 10px;
   width: 250px;
-  min-height: 580px;
+  min-height: 815px;
+  background-image: url('./bg-pic/wood.jpg');
 }
 
 .dragbox {
@@ -30,6 +35,7 @@
   margin: 0 0 10px 0;
   &.flipped {
     .front {
+      vertical-align: middle;
       transform: rotateY(180deg);
     }
     .back {
@@ -39,7 +45,7 @@
   .front,
   .back {
     user-select: none;
-    max-height: 50px;
+    max-height: 80px;
     position: absolute;
     color: #fff;
     backface-visibility: hidden;
