@@ -1,13 +1,15 @@
 {
   "files": {
-    "main.css": "/dnd-flip-mash/static/css/main.0a0ecd2e.css",
-    "main.js": "/dnd-flip-mash/static/js/main.e1f768c0.js",
+    "main.css": "/dnd-flip-mash/static/css/main.dd5322f7.css",
+    "main.js": "/dnd-flip-mash/static/js/main.28b955c4.js",
+    "static/media/grass.png": "/dnd-flip-mash/static/media/grass.e5f93f381237a4cb1988.png",
+    "static/media/wood.jpg": "/dnd-flip-mash/static/media/wood.d5fa21bc123759ce279c.jpg",
     "index.html": "/dnd-flip-mash/index.html",
-    "main.0a0ecd2e.css.map": "/dnd-flip-mash/static/css/main.0a0ecd2e.css.map",
-    "main.e1f768c0.js.map": "/dnd-flip-mash/static/js/main.e1f768c0.js.map"
+    "main.dd5322f7.css.map": "/dnd-flip-mash/static/css/main.dd5322f7.css.map",
+    "main.28b955c4.js.map": "/dnd-flip-mash/static/js/main.28b955c4.js.map"
   },
   "entrypoints": [
-    "static/css/main.0a0ecd2e.css",
-    "static/js/main.e1f768c0.js"
+    "static/css/main.dd5322f7.css",
+    "static/js/main.28b955c4.js"
   ]
 }
