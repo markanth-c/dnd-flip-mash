@@ -18,38 +18,38 @@ const categories = {
 const itemsFromBackend = [
   {
     id: "0",
-    content: "Squash",
-    description: "wawie squash 🎃",
+    content: "🎃 Squash 🎃",
+    description: "The antioxidants in squash can play an important role in reducing oxidative stress.",
     category: categories.Fruit,
   },
   {
     id: "1",
-    content: "Carrot",
-    description: "wawie carrot 🥕",
+    content: "🥕 Carrot 🥕",
+    description: "The fiber in carrots can help keep blood sugar levels under control.",
     category: categories.Veggie,
   },
   {
     id: "2",
-    content: "Potato",
-    description: "wawie potato 🥔",
+    content: "🥔 Potato 🥔",
+    description: "Potatoes are a good source of fiber, which keeps you full longer.",
     category: categories.Veggie,
   },
   {
     id: "3",
-    content: "Cucumber",
-    description: "wawie cucmber 🥒",
+    content: "🥒 Cucumber 🥒",
+    description: "Cucumber has been found to decrease bad cholesterol and blood sugar levels.",
     category: categories.Fruit,
   },
   {
     id: "4",
-    content: "Broccoli",
-    description: "wawie broccoli 🥦",
+    content: "🥦 Broccoli 🥦",
+    description: "Broccoli helps reduce inflammation, boost immunity and promote heart health",
     category: categories.Veggie,
   },
   {
     id: "5",
-    content: "Peanut",
-    description: "wawie peanut 🥜",
+    content: "🥜 Peanut 🥜",
+    description: "Peanuts are an especially good source of healthful fats, protein, and fiber.",
     category: categories.Fruit,
   },
 ];
@@ -150,7 +150,7 @@ function App() {
                           {...provided.droppableProps}
                           ref={provided.innerRef}
                           style={{
-                            background: snapshot.isDraggingOver
+                            filter: snapshot.isDraggingOver
                               ? "#eee"
                               : "#ddd",
                           }}
@@ -189,12 +189,12 @@ function App() {
                                   function setBGColor() {
                                     if (!isDisableDND) {
                                       return snapshot.isDragging
-                                        ? "#929292"
-                                        : "#454545";
+                                        ? "linear-gradient(#964B0088, #FFFF00FF)"
+                                        : "radial-gradient(#964B0088, #FFFF00FF)";
                                     } else {
                                       return isCorrect()
-                                        ? "#6495ED"
-                                        : "#EE4B2B";
+                                        ? "rgba(0,255,0,0.5)"
+                                        : "rgba(255,0,0,0.5)";
                                     }
                                   }
                                   return (
@@ -203,7 +203,7 @@ function App() {
                                       {...provided.draggableProps}
                                       {...provided.dragHandleProps}
                                       style={{
-                                        backgroundColor: setBGColor(),
+                                        background: setBGColor(),
                                         ...provided.draggableProps.style,
                                       }}
                                       // magic here
